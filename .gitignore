@@ -1,0 +1,65 @@
+# Binaries untuk program dan plugin
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+tmp/
+
+# Output dari go build
+/app
+/go-image-uploader
+/main
+
+# File test
+*.test
+*.tmp
+*.out
+
+# Direktori untuk gambar yang diunggah
+public/images/*
+!public/images/.gitkeep
+
+# File environment dan konfigurasi lokal
+.env
+
+# File log
+*.log
+app.log
+
+# Direktori vendor
+/vendor/
+
+# Direktori air untuk hot-reload
+.air.toml
+
+# Cache dan build files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# File database PostgreSQL lokal
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# File yang dibuat oleh air untuk hot reload
+/tmp/
+
+# Cache Go
+.cache/
+
+# File debug
+__debug_bin
+
+# File Lock
+*.lock
+
+
+# File dump database
+*.dump
+*.sql
